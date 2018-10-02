@@ -3,9 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="236ec28e-317b-40b5-a971-20a6feddf6c2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/gatk_sim (1).vcf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/convert_to_bam.py" afterPath="$PROJECT_DIR$/convert_to_bam.py" />
       <change beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
-      <change beforePath="$PROJECT_DIR$/simMonovarVanilla.vcf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/._ill100v4_p.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/._ill100v4_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/._ill100v5_p.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/._ill100v5_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/._r454ti_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v4_p.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v4_p/modeli5r4_paired.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v4_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v4_s/ill100v5_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v5_p.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v5_p/modeli5r4_paired.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/ill100v5_s.gzip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/models/r454ti_s.gzip" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="generator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            <state relative-caret-position="100">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convert_to_bam.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/generator_helper.py" />
         <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/convert_to_bam.py" />
       </list>
     </option>
   </component>
@@ -93,8 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538439713570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Use relative location to store the error file!">
+      <created>1538443551615</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538443551615</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -184,9 +214,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19135135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19459459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -210,13 +240,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parametrized user-customed parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parametrized user-customed parameters" />
+    <MESSAGE value="Use relative location to store the error file!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use relative location to store the error file!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13550">
+          <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#179#1446#0" expanded="false" />
+            <element signature="e#1495#4213#0" expanded="false" />
+            <element signature="e#4272#7251#0" expanded="false" />
+            <element signature="e#7369#10842#0" expanded="false" />
+            <element signature="e#10882#12666#0" expanded="false" />
+            <element signature="e#12697#12985#0" expanded="false" />
+            <element signature="e#13045#15333#0" expanded="false" />
+            <element signature="e#15417#17398#0" expanded="false" />
+            <element signature="e#17439#17847#0" expanded="false" />
+            <element signature="e#17883#20435#0" expanded="false" />
+            <element signature="e#20491#21041#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -375,29 +437,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list_fastq.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mutation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/list_fastq.txt" />
+    <entry file="file://$PROJECT_DIR$/mutation.txt" />
     <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="100">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

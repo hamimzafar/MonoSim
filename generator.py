@@ -50,7 +50,7 @@ def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_
         f.write("\n")
     f.close()
     amps = amplify_genome(sampled, fp_rate, 10, ado_rate, num_sections)
-    err_file = "models/ill100v4_s.gzip"
+    err_file = "ill100v4_s.gzip"
     # err_file = "D:/2018 summer/Monovar/GemSIM_v1.6/models/ill100v4_s.gzip"
     # For each cell, write all genome reads to a single file
     ls_fq = open("list_fastq.txt","w")

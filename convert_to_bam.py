@@ -14,7 +14,7 @@ except subprocess.CalledProcessError:
 for seq in acclist:
     # Align
     with open("fq/" + seq + ".sam", "w") as outfile:
-        subprocess.call(["bwa", "mem", "chr20.fa", "fq/" + seq + ".fastq"], stdout=outfile)
+        subprocess.call(["bwa", "mem", "-R", "@RG\\tID:test\\tSM:test" ,"chr20.fa", seq + ".fastq"], stdout=outfile)
     print("Saved as " + seq + ".sam")
 
     # Sort samfile
@@ -22,5 +22,5 @@ for seq in acclist:
         ["samtools", "sort", "-o", "fq/" + seq + "_sorted.bam", "fq/" + seq + ".sam"])
 
     # Cleanup
-    subprocess.run(["rm", "fq/" + seq + ".fastq"])
+    #subprocess.run(["rm", "fq/" + seq + ".fastq"])
     subprocess.run(["rm", "fq/" + seq + ".sam"])
