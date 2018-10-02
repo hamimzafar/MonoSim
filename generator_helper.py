@@ -462,7 +462,7 @@ def sample_cells(percentages, clones, num_cells):
             sampled[clone+"_"+str(num)] = clones[clone]
     return sampled
 
-def amplify_genome(genome_copies, fp_rate, num_rounds):
+def amplify_genome(genome_copies, fp_rate, num_rounds, ado_rate, num_sections):
     """
     :param cell_dict: the dictionary that maps the leaves of the tree to its two cell copies
     :param drop_rate: the probability that a spot in the genome gets dropped
@@ -476,22 +476,22 @@ def amplify_genome(genome_copies, fp_rate, num_rounds):
     p = defaultdict(lambda: defaultdict(lambda: defaultdict()))
     c = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 1)))
     sections = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: [])))
-    #muts = defaultdict(list)
-    NUM_UNITS = 100
+    # muts = defaultdict(list)
+    # NUM_UNITS = 10
     for clone in genome_copies:
-        #Make sure the two copies are of the same length
+        # Make sure the two copies are of the same length
         min_len = min(len(genome_copies[clone][0]),len(genome_copies[clone][1]))
         cur_pos = 0
-        unit_length = min_len / NUM_UNITS
-        for j in range(1,NUM_UNITS):
-            #Use Normal distribution to chunk up the genomes
+        unit_length = min_len / num_sections
+        for j in range(1, num_sections):
+            # Use Normal distribution to chunk up the genomes
             end_pos = int(random.gauss(j*unit_length, 20))
             sections[clone][j][0].append(genome_copies[clone][0][cur_pos:end_pos])
             sections[clone][j][1].append(genome_copies[clone][1][cur_pos:end_pos])
             cur_pos = end_pos
             rand3 = random.random()
-            #Set the initial probabilities for two copies
-            if rand3 < 0.2:
+            # Set the initial probabilities for two copies
+            if rand3 < ado_rate:
                 rand4 = random.random()
                 if rand4 < 0.5:
                     p[clone][j][0] = 0.9
@@ -504,7 +504,7 @@ def amplify_genome(genome_copies, fp_rate, num_rounds):
                 p[clone][j][1] = 0.5
             for num in range(num_rounds):
                 rand4 = random.random()
-                #Update copy counts and random selection of genome copy.
+                # Update copy counts and random selection of genome copy.
                 if rand4 < p[clone][j][0]:
                     flag = 0
                     c[clone][j][0] += 1
@@ -513,16 +513,16 @@ def amplify_genome(genome_copies, fp_rate, num_rounds):
                     flag = 1
                     c[clone][j][1] += 1
                     amp = random.choice(sections[clone][j][1])
-                #Update probability if ADO occurs
+                # Update probability if ADO occurs
                 if rand3 < 0.2:
                     p_temp_0 = p[clone][j][0]
                     p_temp_1 = p[clone][j][1]
                     p[clone][j][0] = c[clone][j][0] * p_temp_0 / (c[clone][j][0] * p_temp_0 + c[clone][j][1] * p_temp_1)
                     p[clone][j][1] = c[clone][j][1] * p_temp_1 / (c[clone][j][0] * p_temp_0 + c[clone][j][1] * p_temp_1)
-                #Make a copy of the chosen section
+                # Make a copy of the chosen section
                 place = random.randint(0, len(amp)/10)
                 temp = amp[place:]
-                #Introducing FP errors
+                # Introducing FP errors
                 for num2 in range(len(temp)):
                     rand = random.random()
                     if rand < fp_rate:
@@ -531,14 +531,14 @@ def amplify_genome(genome_copies, fp_rate, num_rounds):
                             temp2.remove(temp[num2])
                             mut = random.choice(temp2)
                             temp = temp[:num2] + mut + temp[num2 + 1:]
-                            #muts[clone].append((num2, temp[num2], mut))
+                            # muts[clone].append((num2, temp[num2], mut))
                         elif temp[num2] in lower and temp[num2] != "n":
                             temp2 = deepcopy(lower)
                             temp2.remove(temp[num2])
                             mut = random.choice(temp2)
                             temp = temp[:num2] + mut + temp[num2 + 1:]
-                            #muts[clone].append((num2, temp[num2], mut))
-                        #print "temp num2 after", temp[num2]
+                            # muts[clone].append((num2, temp[num2], mut))
+                        # print "temp num2 after", temp[num2]
                 sections[clone][j][flag].append(temp)
-                #sections[clone][j][flag][0] += temp
+                # sections[clone][j][flag][0] += temp
     return sections
