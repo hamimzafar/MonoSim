@@ -480,7 +480,7 @@ def amplify_genome(genome_copies, fp_rate, num_rounds, ado_rate, num_sections):
     # NUM_UNITS = 10
     for clone in genome_copies:
         # Make sure the two copies are of the same length
-        min_len = min(len(genome_copies[clone][0]),len(genome_copies[clone][1]))
+        min_len = min(len(genome_copies[clone][0]), len(genome_copies[clone][1]))
         cur_pos = 0
         unit_length = min_len / num_sections
         for j in range(1, num_sections):
