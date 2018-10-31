@@ -443,3 +443,123 @@ class TreeNodeStateInternal(TreeNodeState):
     def to_string(self, owner):
         "Contract from super."
         return str(owner.get_name()) + '(' + str(self.get_left_child()) + ', ' + str(self.get_right_child()) + ')'
+
+"""
+Counts the number of leaves in a tree in dict form.
+"""
+def count_leaves_full_bitree_dict(tree):
+    num_leaves = 0
+    for adj_set in tree.values():
+        adj_set_size = len(adj_set)
+        if adj_set_size == 0 or adj_set_size == 1:
+            num_leaves+=1
+
+    return num_leaves
+
+"""
+Counts the number of leaves in a FullBiTree
+"""
+def count_leaves_fullbitree(tree):
+    if tree.is_leaf():
+        return 1
+    else:
+        return count_leaves_full_bitree_dict(tree.get_right_child()) + \
+               count_leaves_full_bitree_dict(tree.get_left_child())
+
+
+"""
+Computes the hight of a FullBiTree.
+
+Arguments:
+tree - a full binary tree in FullBiTree form.
+
+Returns:
+The height of the tree
+"""
+def tree_height(tree):
+    if tree.is_leaf():
+        return 0
+    else:
+        left_height = tree_height(tree.get_left_child())
+        right_height = tree_height(tree.get_right_child())
+        if left_height > right_height:
+            return left_height + 1
+        else:
+            return right_height + 1
+
+def infix_string(tree):
+    """
+    Computes the infix order string of a tree.
+
+    Arguments:
+    tree - a full binary tree in FullBiTree form.
+
+    Returns:
+    An infix string of the tree.
+    """
+    if tree.is_leaf():
+        return tree.get_name()
+    else:
+        return infix_string(tree.get_left_child()) + tree.get_name() + infix_string(tree.get_right_child())
+
+
+def find_paths(tree):
+    """
+    Computes a string for each path in the givn tree starting at the root and terminating at a leaf.
+
+    Arguments:
+    tree - a FullBiTree
+
+    Returns:
+    A set of strings encoding the order of nodes in each path from the root to all leaves.
+    """
+    found_paths = set()
+    find_paths_help(tree, "", found_paths)
+    return found_paths
+
+def find_paths_help(tree, path_so_far, found_paths):
+    """
+    Computes a string for each path in the given sub-tree starting at the sub-tree root and terminating at a leaf.
+    Stores completed paths in the given set
+
+    Arguments:
+    tree - a FullBiTree
+    path_so_far - a string encoding the path seen so far from the global tree root to this sub-tree root.
+    found_paths - all complete paths seen so far from the tree root to a leaf.
+    """
+    if tree.is_leaf():
+        path = path_so_far + tree.get_name()
+        found_paths.add(path)
+    else:
+        find_paths_help(tree.get_left_child(), path_so_far + tree.get_name(), found_paths)
+        find_paths_help(tree.get_right_child(), path_so_far + tree.get_name(), found_paths)
+
+def is_valid_bst(tree):
+    """
+    Tests to see if the given tree has the binary search property.
+
+    Arguments:
+    tree - a FullBiTree where the value of each node is an integer stored as the node's name.
+
+    Returns:
+    True if the tree has the binary search property, else false.
+    """
+    infix_list = list()
+    is_valid_bst_help(tree, infix_list)
+
+    prev_element = infix_list[0]
+
+    for element in infix_list:
+        if element < prev_element:
+            return False
+        prev_element = element
+
+    return True
+
+def is_valid_bst_help(tree, infix_list):
+    if tree.is_leaf():
+        infix_list.append(tree.get_name())
+    else:
+        is_valid_bst_help(tree.get_left_child(), infix_list)
+        infix_list.append(tree.get_name())
+        is_valid_bst_help(tree.get_right_child(), infix_list)
