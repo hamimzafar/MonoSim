@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="236ec28e-317b-40b5-a971-20a6feddf6c2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Beta_splitting.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/new_beta_split.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Beta_splitting.py" afterPath="$PROJECT_DIR$/Beta_splitting.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +23,9 @@
       <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,13 +33,12 @@
       <file leaf-file-name="generator_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+            <state relative-caret-position="600">
+              <caret line="130" column="66" lean-forward="true" selection-start-line="130" selection-start-column="66" selection-end-line="130" selection-end-column="66" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#179#1446#0" expanded="false" />
                 <element signature="e#1495#4213#0" expanded="false" />
-                <element signature="e#4272#7251#0" expanded="false" />
                 <element signature="e#7369#10842#0" expanded="false" />
                 <element signature="e#10882#12666#0" expanded="false" />
                 <element signature="e#12697#12985#0" expanded="false" />
@@ -54,25 +52,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Beta-Splitting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_Beta-Splitting.py">
+      <file leaf-file-name="Beta_splitting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Beta_splitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+            <state relative-caret-position="-1201">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
               <folding>
-                <element signature="e#25#61#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Beta_splitting.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Beta_splitting.py">
+      <file leaf-file-name="new_beta_split.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_beta_split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="346">
+              <caret line="62" column="53" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,49 +79,14 @@
       <file leaf-file-name="trees.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11821">
-              <caret line="564" column="61" lean-forward="false" selection-start-line="564" selection-start-column="61" selection-end-line="564" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FullBiTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/2018 spring/Comp 182/Projects/EvolutionaryTrees/FullBiTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10825">
-              <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_to_bam.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convert_to_bam.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_data/convert_to_bam.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="label_vcf.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/label_vcf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="-1150">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#2283#0" expanded="false" />
+                <element signature="e#7771#10523#0" expanded="false" />
+                <element signature="e#10569#11607#0" expanded="false" />
+                <element signature="e#11657#13058#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +104,7 @@
     <findStrings>
       <find>set_alleles</find>
       <find>define_nummutes</find>
+      <find>parent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,6 +123,7 @@
         <option value="$PROJECT_DIR$/generator_helper.py" />
         <option value="$PROJECT_DIR$/_Beta-Splitting.py" />
         <option value="$PROJECT_DIR$/Beta_splitting.py" />
+        <option value="$PROJECT_DIR$/new_beta_split.py" />
       </list>
     </option>
   </component>
@@ -169,10 +134,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3117" />
-    <option name="y" value="192" />
+    <option name="x" value="118" />
+    <option name="y" value="155" />
     <option name="width" value="1428" />
-    <option name="height" value="1030" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540949152722</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Beta splitting!">
+      <created>1540949226120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540949226120</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2869" y="-11" width="1642" height="2842" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -406,7 +378,8 @@
     <MESSAGE value="Updated file conversion script!" />
     <MESSAGE value="Wrote a script to annotate mutation type!" />
     <MESSAGE value="Add helper functions to trees!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add helper functions to trees!" />
+    <MESSAGE value="Added Beta splitting!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Beta splitting!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,24 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/generator_helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
@@ -441,7 +396,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -466,9 +420,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +440,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -505,9 +456,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +476,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -544,9 +492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +512,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -583,9 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +548,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -622,9 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +584,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -661,9 +600,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +612,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -700,9 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +648,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -731,9 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +676,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -762,9 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +704,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -800,9 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +739,6 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -872,18 +796,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
+    <entry file="file://D:/2018 spring/Comp 182/Projects/POSTagging/comp182.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="-8079">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generalized_Dollo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_Beta-Splitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/2018 spring/Comp 182/Projects/EvolutionaryTrees/FullBiTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10825">
+          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_data/convert_to_bam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
+        <state relative-caret-position="546">
           <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_to_bam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -896,30 +853,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/2018 spring/Comp 182/Projects/POSTagging/comp182.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8079">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/2018 spring/Comp 182/Projects/EvolutionaryTrees/FullBiTree.py">
+    <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10825">
-          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#2283#0" expanded="false" />
+            <element signature="e#7771#10523#0" expanded="false" />
+            <element signature="e#10569#11607#0" expanded="false" />
+            <element signature="e#11657#13058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beta_splitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1201">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generator_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+        <state relative-caret-position="600">
+          <caret line="130" column="66" lean-forward="true" selection-start-line="130" selection-start-column="66" selection-end-line="130" selection-end-column="66" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#4272#7251#0" expanded="false" />
             <element signature="e#7369#10842#0" expanded="false" />
             <element signature="e#10882#12666#0" expanded="false" />
             <element signature="e#12697#12985#0" expanded="false" />
@@ -932,50 +912,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trees.py">
+    <entry file="file://$PROJECT_DIR$/new_beta_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11821">
-          <caret line="564" column="61" lean-forward="false" selection-start-line="564" selection-start-column="61" selection-end-line="564" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generalized_Dollo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="346">
+          <caret line="62" column="53" lean-forward="true" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Beta-Splitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="84" column="57" lean-forward="true" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beta_splitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

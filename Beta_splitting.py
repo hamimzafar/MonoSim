@@ -63,7 +63,7 @@ while j<n-1:
                     break
     else:
             for tree in Tree:
-                if tree.is_leaf and is_in(Ui[j], tree.getTuple()) and (not tree.is_dead) :
+                if tree.is_leaf and is_in(Ui[j], tree.getTuple()) and not tree.is_dead:
                     a,b = tree.getTuple()
                     tree_number+=2
                     #Two new children are born here
