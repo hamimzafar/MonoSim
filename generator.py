@@ -3,7 +3,7 @@ import os
 from trees import *
 from generator_helper import *
 from genome_helper import *
-
+from new_beta_split import *
 
 def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_sections):
     # Take out spaces in the genome
@@ -13,7 +13,9 @@ def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_
     new_genome_2 = new_genome.replace('\n', '')
     new_genome = new_genome_2[66341:166341]
     # Simulate single cell genomes
-    neut = create_neutral_phylogenetic(num_clones, num_mutations)
+    # neut = create_neutral_phylogenetic(num_clones, num_mutations)
+    neut = beta_split(num_clones, 100000000, 10000000, 0)
+    print "neut", neut
     a = mutate_genome(new_genome, neut)
     # print "genome copies", a[0]
     # print "sites", a[1]

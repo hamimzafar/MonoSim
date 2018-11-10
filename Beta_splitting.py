@@ -22,17 +22,21 @@ def is_in(a, mytuple):
     return False
 
 
-n = raw_input("n:")
-Beta = raw_input("beta:")
-Alpha = raw_input("alpha:")
-Delta = raw_input("delta:")
+#n = raw_input("n:")
+#Beta = raw_input("beta:")
+#Alpha = raw_input("alpha:")
+#Delta = raw_input("delta:")
 
 
 
-n= int(n) #Number of leaves
-Alpha = float(Alpha)
-Beta = float(Beta)
-Delta = float(Delta)
+#n= int(n) #Number of leaves
+#Alpha = float(Alpha)
+#Beta = float(Beta)
+#Delta = float(Delta)
+n = 10
+Alpha = -0.999999
+Beta = -0.999999
+Delta = 0
 Ui = np.random.uniform(0.0,1.0,n-1) #Array of n-1 numbers
 Vi = np.random.uniform(0.0,1.0,n-1)
 Di = np.random.uniform(0.0,1.0,n-1)
