@@ -14,7 +14,7 @@ def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_
     new_genome = new_genome_2[66341:166341]
     # Simulate single cell genomes
     # neut = create_neutral_phylogenetic(num_clones, num_mutations)
-    neut = beta_split(num_clones, 100000000, 10000000, 0)
+    neut = beta_split(num_clones, -0.9999999999, -0.9999999999, 0)
     print "neut", neut
     a = mutate_genome(new_genome, neut)
     # print "genome copies", a[0]
