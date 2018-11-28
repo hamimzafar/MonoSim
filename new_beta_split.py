@@ -34,9 +34,11 @@ def beta_split(n, Beta, Alpha, Delta):
     #Treelist[1].set_node_property('dead', False)
     #Treelist[2].set_node_property('dead', False)
     Treelist[0].set_children(Treelist[1], Treelist[2])
+    total = 1.5
     for i in range(3):
-        rand = random.random
-        Treelist[i].set_node_property('branch length',rand)
+        rand = random.random()
+        total += rand
+        Treelist[i].set_node_property('branch length',rand + 0.5)
 
     tree_number=2
     j=1
@@ -61,8 +63,11 @@ def beta_split(n, Beta, Alpha, Delta):
                 middle = float(Bi[j])*float((float(b)-float(a)))+float(a)
                 lchild = FullBiTree(str(tree_number-1)+": ["+"{0:.4f}".format(a)+","+"{0:.4f}".format(middle)+"]")
                 rchild = FullBiTree(str(tree_number) + ":[" + "{0:.4f}".format(middle) + "," + "{0:.4f}".format(b) + "]")
-                lchild.set_node_property('branch length', random.random)
-                rchild.set_node_property('branch length', random.random)
+                rand1 = random.random()
+                rand2 = random.random()
+                total = total + rand1 + rand2
+                lchild.set_node_property('branch length', rand1)
+                rchild.set_node_property('branch length', rand2)
                 lchild.set_node_property('leaf', True)
                 rchild.set_node_property('leaf', True)
                 tree.set_node_property('leaf', False)
@@ -76,5 +81,16 @@ def beta_split(n, Beta, Alpha, Delta):
                 Treelist[tree_number].set_node_property('tuple',[middle,b])
                 break
         j += 1
+    normalize_branch_length(Treelist[0], total)
+    #print Treelist[0]
     return Treelist[0]
 
+def normalize_branch_length(tree, total):
+    cur_len = tree.get_node_property('branch length')
+    tree.set_node_property('branch length', cur_len / total)
+    print cur_len/total, "length"
+    if not tree.get_node_property('leaf'):
+        lchild = tree.get_left_child()
+        rchild = tree.get_right_child()
+        normalize_branch_length(lchild, total)
+        normalize_branch_length(rchild, total)
