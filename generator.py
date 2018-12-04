@@ -5,7 +5,7 @@ from generator_helper import *
 from genome_helper import *
 from new_beta_split import *
 
-def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_sections):
+def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_sections, percent_clonal):
     # Take out spaces in the genome
     # chr20 = open("chr20.fa","r")
     ref_genome = open(ref_file, "r")
@@ -13,8 +13,8 @@ def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_
     new_genome_2 = new_genome.replace('\n', '')
     new_genome = new_genome_2[66341:166341]
     # Simulate single cell genomes
-    # neut = create_neutral_phylogenetic(num_clones, num_mutations)
-    neut = beta_split(num_clones, -0.9999999999, -0.9999999999, 0)
+    neut = create_neutral_phylogenetic(num_clones, num_mutations, percent_clonal)
+    # neut = beta_split(num_clones, -0.9999999999, -0.9999999999, 0)
     print "neut", neut
     a = mutate_genome(new_genome, neut)
     # print "genome copies", a[0]
@@ -73,4 +73,4 @@ def main(num_clones, num_cells, num_mutations, fp_rate, ado_rate, ref_file, num_
 
 
 main(num_clones=10, num_cells=100, num_mutations=50, fp_rate=10**(-4),
-     ado_rate=0.2, ref_file="chr20.fa", num_sections=10)
+     ado_rate=0.2, ref_file="chr20.fa", num_sections=10, percent_clonal=0.5)

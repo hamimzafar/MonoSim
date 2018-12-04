@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="236ec28e-317b-40b5-a971-20a6feddf6c2" name="Default" comment="">
+    <list default="true" id="236ec28e-317b-40b5-a971-20a6feddf6c2" name="Default" comment="Introduced user-input percentage of clonal mutation parameter!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/new_beta_split.py" afterPath="$PROJECT_DIR$/new_beta_split.py" />
+      <change beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
+      <change beforePath="$PROJECT_DIR$/generator_helper.py" afterPath="$PROJECT_DIR$/generator_helper.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MonoSim$generator.coverage" NAME="generator Coverage Results" MODIFIED="1543373444044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MonoSim$generator.coverage" NAME="generator Coverage Results" MODIFIED="1543866364598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MonoSim$label_vcf.coverage" NAME="label_vcf Coverage Results" MODIFIED="1539484827374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MonoSim$Beta_splitting.coverage" NAME="Beta_splitting Coverage Results" MODIFIED="1543373410503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MonoSim$convert_to_bam.coverage" NAME="convert_to_bam Coverage Results" MODIFIED="1539748104755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_data" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            <state relative-caret-position="-1325">
+              <caret line="7" column="102" lean-forward="false" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -32,24 +33,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator_helper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generator_helper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generator_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+            <state relative-caret-position="250">
+              <caret line="144" column="93" lean-forward="true" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#179#1446#0" expanded="false" />
                 <element signature="e#1495#4213#0" expanded="false" />
-                <element signature="e#7369#10842#0" expanded="false" />
-                <element signature="e#10882#12666#0" expanded="false" />
-                <element signature="e#12697#12985#0" expanded="false" />
-                <element signature="e#13045#15333#0" expanded="false" />
-                <element signature="e#15417#17398#0" expanded="false" />
-                <element signature="e#17439#17847#0" expanded="false" />
-                <element signature="e#17883#20435#0" expanded="false" />
-                <element signature="e#20491#21041#0" expanded="false" />
-                <element signature="e#21127#25084#0" expanded="false" />
+                <element signature="e#7463#10936#0" expanded="false" />
+                <element signature="e#10976#12760#0" expanded="false" />
+                <element signature="e#12791#13079#0" expanded="false" />
+                <element signature="e#13139#15427#0" expanded="false" />
+                <element signature="e#15511#17492#0" expanded="false" />
+                <element signature="e#17977#20529#0" expanded="false" />
+                <element signature="e#20585#21135#0" expanded="false" />
+                <element signature="e#21221#25178#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_beta_split.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_beta_split.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_beta_split.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
+            <state relative-caret-position="-1030">
               <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -121,11 +120,11 @@
         <option value="$PROJECT_DIR$/new_data/convert_to_bam.py" />
         <option value="$PROJECT_DIR$/Generalized_Dollo.py" />
         <option value="$PROJECT_DIR$/trees.py" />
-        <option value="$PROJECT_DIR$/generator_helper.py" />
         <option value="$PROJECT_DIR$/_Beta-Splitting.py" />
         <option value="$PROJECT_DIR$/Beta_splitting.py" />
-        <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/new_beta_split.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/generator_helper.py" />
       </list>
     </option>
   </component>
@@ -366,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541888928347</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Increase clonal mutation and decrease sub-clonal mutation through manipulating branch length.">
+      <created>1543373508666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543373508667</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +383,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18054055" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -433,17 +439,11 @@
     <MESSAGE value="Updated Beta Splitting model to fit in our simulator and incorporated branch length!" />
     <MESSAGE value="Updated Beta Splitting model." />
     <MESSAGE value="Debugged Beta Splitting model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Debugged Beta Splitting model." />
+    <MESSAGE value="Increase clonal mutation and decrease sub-clonal mutation through manipulating branch length." />
+    <option name="LAST_COMMIT_MESSAGE" value="Increase clonal mutation and decrease sub-clonal mutation through manipulating branch length." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/generator.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
@@ -479,17 +479,15 @@
           <caret line="380" column="4" lean-forward="false" selection-start-line="380" selection-start-column="4" selection-end-line="380" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -517,17 +515,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -555,17 +551,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -593,17 +587,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -631,17 +623,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,17 +652,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,17 +688,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,17 +717,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,17 +746,15 @@
           <caret line="542" column="18" lean-forward="false" selection-start-line="542" selection-start-column="18" selection-end-line="542" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -800,17 +782,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
             <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,37 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="164" column="12" lean-forward="false" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#179#1446#0" expanded="false" />
-            <element signature="e#1495#4213#0" expanded="false" />
-            <element signature="e#7369#10842#0" expanded="false" />
-            <element signature="e#10882#12666#0" expanded="false" />
-            <element signature="e#12697#12985#0" expanded="false" />
-            <element signature="e#13045#15333#0" expanded="false" />
-            <element signature="e#15417#17398#0" expanded="false" />
-            <element signature="e#17439#17847#0" expanded="false" />
-            <element signature="e#17883#20435#0" expanded="false" />
-            <element signature="e#20491#21041#0" expanded="false" />
-            <element signature="e#21127#25084#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trees.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1725">
@@ -957,6 +906,16 @@
             <element signature="e#7771#10523#0" expanded="false" />
             <element signature="e#10569#11607#0" expanded="false" />
             <element signature="e#11657#13058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_beta_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -971,12 +930,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_beta_split.py">
+    <entry file="file://$PROJECT_DIR$/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+        <state relative-caret-position="-1325">
+          <caret line="7" column="102" lean-forward="false" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="144" column="93" lean-forward="true" selection-start-line="144" selection-start-column="93" selection-end-line="144" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1495#4213#0" expanded="false" />
+            <element signature="e#7463#10936#0" expanded="false" />
+            <element signature="e#10976#12760#0" expanded="false" />
+            <element signature="e#12791#13079#0" expanded="false" />
+            <element signature="e#13139#15427#0" expanded="false" />
+            <element signature="e#15511#17492#0" expanded="false" />
+            <element signature="e#17977#20529#0" expanded="false" />
+            <element signature="e#20585#21135#0" expanded="false" />
+            <element signature="e#21221#25178#0" expanded="false" />
           </folding>
         </state>
       </provider>

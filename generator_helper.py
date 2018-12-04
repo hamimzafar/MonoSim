@@ -91,7 +91,7 @@ def set_alleles(t, changed_sites, parent):
         set_alleles(t.get_left_child(), sites, t)
         set_alleles(t.get_right_child(),sites, t)
 
-def create_neutral_phylogenetic(numcells, numsites):
+def create_neutral_phylogenetic(numcells, numsites, percent_clonal):
     """
     :param numclones: The number of clones that will be at the leaves of the tree
     :return: A phylogenetic tree that models branching cancer cell evolution in the form of a Newick string
@@ -104,6 +104,7 @@ def create_neutral_phylogenetic(numcells, numsites):
     trees = []
     num2 = 0
     num3 = 0
+    total = 0
     for sequence in sequences:
         num = FullBiTree(sequence)
         #creates a node for each cell that will be leaf
@@ -139,9 +140,9 @@ def create_neutral_phylogenetic(numcells, numsites):
         trees.append(temp)
         # add the intermidiate node to the list that can be chosen
         num2 += 1
-    l = random.random()
-    total_length += l
-    trees[0].set_node_property('branch length', l)
+    # l = random.random()
+    # total_length += l
+    trees[0].set_node_property('branch length', total_length / percent_clonal - total_length)
     normal = FullBiTree("normal")
     normal.set_node_property('alleles', "0" * numsites)
     normal.set_node_property('copy 1 alleles', "0" * numsites)
@@ -156,7 +157,7 @@ def create_neutral_phylogenetic(numcells, numsites):
     new.set_node_property('nummutes', 0)
     new.set_node_property('new mutations', [])
     new.set_node_property('clone', new.get_name())
-    define_nummutes(new.get_right_child(), total_length, numsites)
+    define_nummutes(new.get_right_child(), total_length / percent_clonal, numsites)
     set_alleles(new.get_right_child(), changed_sites, new)
     # initial conditions for the tree to be biologically accurate and to pass down to children
     if len(changed_sites) != numsites:
